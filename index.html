@@ -17,7 +17,8 @@
         <div class="title">
             <h1>Administración de artículos</h1>
         </div>
-        <button type="button" class="btn btn-outline-secondary" id="see-store" >Ver Tienda</button>
+        <a href="./views/store.html"><button type="button" class="btn btn-outline-secondary">Ver Tienda</button></a>
+        
         <div class="table-div">
             <table id="table" class="table table-hover">
                 <tr>
@@ -27,7 +28,7 @@
                     <td>Borrar</td>
                     <td>Seleccionar</td>
                 </tr>
-                <tr>
+                <!-- <tr>
                     <td id="code-1">1</td>
                     <td>papas</td>
                     <td>10.55</td>
@@ -61,7 +62,7 @@
                     <td>20</td>
                     <td><button type="button" class="btn btn-outline-danger delete-button">Borrar</button></td>
                     <td><Button class="select-button btn btn-outline-info">Seleccionar</Button></td>
-                </tr>
+                </tr> -->
             </table>
         </div>
     </main>
@@ -90,12 +91,14 @@
             <button type="button" class="btn btn-outline-primary" id="add" onclick="validateId()">Agregar</button>
             <button type="button" class="btn btn-outline-secondary" id="change" onclick="modifyRow()">Modificar</button>
         </div>
-       
     </section>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
     crossorigin="anonymous"></script>
+<script src="./JS/AddController.js"></script>
+<script src="./JS/DeleteController.js"></script>
+<script src="./JS/ModifyController.js"></script>
 <script src="./JS/app.js"></script>
 
 </html>
