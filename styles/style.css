@@ -1,0 +1,20 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs{
+    width: 500px;;
+}
+
+.inputs-buttons{
+    text-align: center;
+}
+
+.inputs div{
+    padding-top: 10px;
+    justify-content: space-around;
+    
+}
